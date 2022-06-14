@@ -40,7 +40,7 @@ try {
         let i = body.data.list.length;
         while (i--) {
             if (body.data.list[i].is_ad == true) {
-                console.log('bilibili, 去掉开屏广告：' + body.data.list[i].uri_title);
+                // console.log('bilibili, 去掉开屏广告：' + body.data.list[i].uri_title);
                 body.data.list.splice(i, 1);
             }
         }
